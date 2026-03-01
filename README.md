@@ -24,7 +24,50 @@ Fill in
 <h2>Setup:</h2>
 
 <p align="Left">
-Used Rustdesk with Tailscale to securely remote into my home server: <br/>
+Used Rustdesk with Tailscale to securely remote into my home server (Using a headless hdmi): <br/>
 <img src="Images/image.png"/>
+<br />
+<br />
+
+<p align="Left">
+Now that I connected to my homeserver I will need to make a VM using Oracle VirtualBox.  <br/>
+<img src="Images/image (1).png"/>
+<br />
+<br />
+
+<p align="Left">
+The VM started up so I now need to install the following files:
+ 
+  - [osTicket](https://osticket.com/download/) - The help-desk application files.
+  - [HeidiSQL](https://www.heidisql.com/download.php) - A lightweight GUI tool to connect to MySQL.
+  - [MySQL](https://www.mysql.com/downloads/) - The database server.
+  - [PHP](https://www.php.net/releases/index.php) - The backend logic.
+  - [PHP Manager for IIS](https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10) - A simple IIS plugin.
+  - [IIS URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite) - Translates URLs into the actual PHP scripts.
+  - [Visual Studio C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version) - Libraries required for PHP and MySQL to run on Windows 10. </p>
+ <br/>
+
+
+<p align="Left">
+X <br/>
+<img src="Images/X.png"/>
+<br />
+<br />
+
+<p align="Left">
+X <br/>
+<img src="Images/X.png"/>
+<br />
+<br />
+
+<p align="Left">
+X <br/>
+<img src="Images/X.png"/>
+<br />
+<br />
+
+<p align="Left">
+X <br/>
+<img src="Images/X.png"/>
 <br />
 <br />
