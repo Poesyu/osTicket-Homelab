@@ -39,12 +39,13 @@ Now that I connected to my homeserver I will need to make a VM using Oracle Virt
 The VM started up so I now need to install the following files:
  
   - [osTicket](https://osticket.com/download/) - The help-desk application files.
-  - [HeidiSQL](https://www.heidisql.com/download.php) - A lightweight GUI tool to connect to MySQL.
+  - [Visual Studio C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version) - Libraries required for PHP and MySQL to run on Windows 10. 
   - [MySQL](https://www.mysql.com/downloads/) - The database server.
+  - [HeidiSQL](https://www.heidisql.com/download.php) - A lightweight GUI tool to connect to MySQL.
   - [PHP](https://www.php.net/releases/index.php) - The backend logic.
   - [PHP Manager for IIS](https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10) - A simple IIS plugin.
   - [IIS URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite) - Translates URLs into the actual PHP scripts.
-  - [Visual Studio C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version) - Libraries required for PHP and MySQL to run on Windows 10. </p>
+  </p>
  <br/>
 
 
