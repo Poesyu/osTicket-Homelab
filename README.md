@@ -17,7 +17,7 @@ Fill in
 
 <h2>Operating Systems Used </h2>
 
-<b>Windows 10</b> 
+<b>Windows 11</b> 
 
 
 
@@ -39,7 +39,7 @@ Now that I connected to my homeserver I will need to make a VM using Oracle Virt
 The VM started up so I now need to install the following files:
  
   - [osTicket](https://osticket.com/download/) - The help-desk application files.
-  - [Visual Studio C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version) - Libraries required for PHP and MySQL to run on Windows 10. 
+  - [Visual Studio C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version) - Libraries required for PHP and MySQL to run on Windows.
   - [MySQL](https://www.mysql.com/downloads/) - The database server.
   - [HeidiSQL](https://www.heidisql.com/download.php) - A lightweight GUI tool to connect to MySQL.
   - [PHP](https://www.php.net/releases/index.php) - The backend logic.
@@ -50,20 +50,26 @@ The VM started up so I now need to install the following files:
 
 
 <p align="Left">
-X <br/>
-<img src="Images/X.png"/>
+Now I need to go into Windows Features and turn on some options (CGI) so that IIS does not just appear as errors and code. <br/>
+ <img src="Images/wfea1.png"/>
+ <img src="Images/wfea2.png"/>
+ <img src="Images/wfea3.png"/>
 <br />
 <br />
 
 <p align="Left">
-X <br/>
-<img src="Images/X.png"/>
+Now to install PHP Manager for IIS. This lets us register PHP, switch versions, and enable extensions without having to go directly into the config files. <br/>
+<img src="Images/iis1.png"/>
+IIS URL Rewrite Module allows it to input URLs in osTicket by routing requests to the correct PHP scripts.
+<img src="Images/iis2.png"/>
 <br />
 <br />
 
 <p align="Left">
-X <br/>
-<img src="Images/X.png"/>
+Its time to place the PHP files in the PHP folder.<br/>
+<img src="Images/php1.png"/>
+ The files should look like this:
+ <img src="Images/php2.png"/>
 <br />
 <br />
 
