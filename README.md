@@ -51,15 +51,16 @@ The VM started up so I now need to install the following files:
 
 <p align="Left">
 Now I need to go into Windows Features and turn on some options (CGI) so that IIS does not just appear as errors and code. <br/>
- <img src="Images/wfea1.png"/>
- <img src="Images/wfea2.png"/>
- <img src="Images/wfea3.png"/>
+<img src="Images/wfea1.png"/>
+<img src="Images/wfea2.png"/>
+<img src="Images/wfea3.png"/>
 <br />
 <br />
 
 <p align="Left">
 Now to install PHP Manager for IIS. This lets us register PHP, switch versions, and enable extensions without having to go directly into the config files. <br/>
 <img src="Images/iis1.png"/>
+ 
 IIS URL Rewrite Module allows it to input URLs in osTicket by routing requests to the correct PHP scripts.
 <img src="Images/iis2.png"/>
 <br />
@@ -68,8 +69,44 @@ IIS URL Rewrite Module allows it to input URLs in osTicket by routing requests t
 <p align="Left">
 Its time to place the PHP files in the PHP folder.<br/>
 <img src="Images/php1.png"/>
- The files should look like this:
- <img src="Images/php2.png"/>
+ 
+The files should look like this:
+
+<img src="Images/php2.png"/>
+<br />
+<br />
+
+<p align="Left">
+Install Microsoft Visual Studio C++ Redistributable. <br/>
+<img src="Images/mvs1.png"/>
+
+This is needed so that everything works, otherwise it will crash.
+<br />
+<br />
+
+<p align="Left">
+Time to install MySQL.
+<br/>
+<img src="Images/sql1.png"/>
+ 
+The SQL setup is pretty self explanatory. This will setup the database service, root password, and the port.
+<img src="Images/sql2.png"/>
+
+<br />
+<br />
+
+<p align="Left">
+Now to register PHP from IIS. Run IISm as Administrator <br/>
+<img src="Images/iism1.png"/>
+
+Find PHP Manager and click it.
+<img src="Images/iism2.png"/>
+
+Register the new PHP version
+<img src="Images/iism3.png"/>
+
+Select the php-cgi
+<img src="Images/iism4.png"/>
 <br />
 <br />
 
