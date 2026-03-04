@@ -107,11 +107,75 @@ Register the new PHP version
 
 Select the php-cgi
 <img src="Images/iism4.png"/>
+Now that this has put done I restarted IIS to apply the new PHP registration.
 <br />
 <br />
 
 <p align="Left">
-X <br/>
-<img src="Images/X.png"/>
+I then installed osTicket by extracting it into 'C:\inetpub\wwwroot' <br/>
+<img src="Images/osti1.png"/>
+I also moved the upload folder which renamed it to 'C:\inetpub\wwwroot\osTicket'
+I then restarted to apply everything.
 <br />
 <br />
+
+<p align="Left">
+I select the drop-down arrow then continue to the right side; where I click "Browse*:80 (http)" under Manage Folder.
+<img src="Images/lh1.png"/>
+This leads me to 'http://localhost/osTicket (port 80)' which shows me that the site opens properly.
+<img src="Images/lh2.png"/>
+<br />
+<br />
+
+<p align="Left">
+At the top of the site it shows that some extensions did not open properly so I went back to IIS to enable them.  <br/>
+<img src="Images/phm1.png"/>
+<img src="Images/phm2.png"/>
+I then enable 'php_imap.dll'
+<img src="Images/phm3.png"/>
+ 
+<br />
+<br />
+
+<p align="Left">
+Now to solve the other problems. I renamed the 'ost-sampleconfig.php' to 'ost-config.php'  <br/>
+<img src="Images/ost1.png"/>
+<img src="Images/ost2.png"/>
+<br />
+<br />
+
+<p align="Left">
+I then assigned permissions. <br/>
+<img src="Images/pe1.png"/>
+<img src="Images/pe2.png"/>
+ Now I added permissions.
+<img src="Images/pe3.png"/>
+<img src="Images/pe4.png"/>
+<img src="Images/pe5.png"/>
+Now everyone has control for now just to test if everything functional. I will change that.
+<br />
+<br />
+
+<p align="Left">
+I am almost there with all these changes. <br/>
+<img src="Images/osp1.png"/>
+<br />
+<br />
+
+<p align="Left">
+I now install HeidiSQL. <br/>
+<img src="Images/hsql1.png"/>
+<img src="Images/hsql2.png"/>
+I now create a new database.
+<img src="Images/hsql3.png"/>
+ I named the new database 'osTicket'
+<br />
+<br />
+ 
+<p align="Left">
+Now everything is finished with no errors! <br/>
+<img src="Images/done.png"/>
+Now I will create fake requests and practice how to use ticketing software. This will mostly be for my home servers if it runs into any problems. 
+<br />
+<br />
+
