@@ -99,8 +99,11 @@ The SQL setup is pretty self explanatory. This will setup the database service, 
 Now to register PHP from IIS. Run IISm as Administrator <br/>
 <img src="Images/iism1.png"/>
 
+
 Find PHP Manager and click it.
+
 <img src="Images/iism2.png"/>
+
 
 Register the new PHP version
 <img src="Images/iism3.png"/>
