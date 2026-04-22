@@ -1,8 +1,6 @@
 # osTicket-Homelab
 
-<h2>Description</h2>
-Fill in
-<br />
+
 
 <h2>Utilities Used</h2>
 
